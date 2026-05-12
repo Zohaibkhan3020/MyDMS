@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New folder\\DocumentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\objectclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\interfaces\\iobjectclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\dtos\\updateobjectclassdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\dtos\\createobjectclassdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\new folder\\dms.domain\\entities\\objectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\services\\objecttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\vaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\interfaces\\ivaultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\new folder\\documentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\new folder\\documentmanagementsystem\\controllers\\objecttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:controllers\\objecttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\interfaces\\iobjecttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\interfaces\\iobjecttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\objecttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\dtos\\updateobjecttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\dtos\\createobjecttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\new folder\\dms.domain\\entities\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\services\\vaultschemaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\services\\databasecreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\new folder\\dms.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\new folder\\dms.domain\\entities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\new folder\\dms.dal\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectClassRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\ObjectClassRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\ObjectClassRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\ObjectClassRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\ObjectClassRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:14:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IObjectClassRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Interfaces\\IObjectClassRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Interfaces\\IObjectClassRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Interfaces\\IObjectClassRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Interfaces\\IObjectClassRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:14:04.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateObjectClassDto.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\DTOs\\UpdateObjectClassDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\UpdateObjectClassDto.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\DTOs\\UpdateObjectClassDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\UpdateObjectClassDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:13:21.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateObjectClassDto.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\DTOs\\CreateObjectClassDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\CreateObjectClassDto.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\DTOs\\CreateObjectClassDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\CreateObjectClassDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:12:37.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectClass.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.Domain\\Entities\\ObjectClass.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\ObjectClass.cs",
+              "ToolTip": "D:\\New folder\\DMS.Domain\\Entities\\ObjectClass.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\ObjectClass.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:11:57.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VaultRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\VaultRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\VaultRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\VaultRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\VaultRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:04:42.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IVaultRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Interfaces\\IVaultRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Interfaces\\IVaultRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Interfaces\\IVaultRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Interfaces\\IVaultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:03:12.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\DocumentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\New folder\\DocumentManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:00:31.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObjectTypeController.cs",
+              "DocumentMoniker": "D:\\New folder\\DocumentManagementSystem\\Controllers\\ObjectTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ObjectTypeController.cs",
+              "ToolTip": "D:\\New folder\\DocumentManagementSystem\\Controllers\\ObjectTypeController.cs",
+              "RelativeToolTip": "Controllers\\ObjectTypeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:58:10.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectTypeService.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\Services\\ObjectTypeService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\ObjectTypeService.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\Services\\ObjectTypeService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Services\\ObjectTypeService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:48:16.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IObjectTypeService.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\Interfaces\\IObjectTypeService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Interfaces\\IObjectTypeService.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\Interfaces\\IObjectTypeService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Interfaces\\IObjectTypeService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:46:28.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ObjectTypeRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\ObjectTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\ObjectTypeRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\ObjectTypeRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\ObjectTypeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:44:48.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IObjectTypeRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Interfaces\\IObjectTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Interfaces\\IObjectTypeRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Interfaces\\IObjectTypeRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Interfaces\\IObjectTypeRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:43:33.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateObjectTypeDto.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\DTOs\\UpdateObjectTypeDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\UpdateObjectTypeDto.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\DTOs\\UpdateObjectTypeDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\UpdateObjectTypeDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:42:38.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateObjectTypeDto.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\DTOs\\CreateObjectTypeDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\CreateObjectTypeDto.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\DTOs\\CreateObjectTypeDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\CreateObjectTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:42:05.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ObjectType.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.Domain\\Entities\\ObjectType.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\ObjectType.cs",
+              "ToolTip": "D:\\New folder\\DMS.Domain\\Entities\\ObjectType.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\ObjectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:41:09.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VaultSchemaService.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\Services\\VaultSchemaService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\VaultSchemaService.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\Services\\VaultSchemaService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Services\\VaultSchemaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:26:20.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseCreatorService.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\Services\\DatabaseCreatorService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\DatabaseCreatorService.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\Services\\DatabaseCreatorService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Services\\DatabaseCreatorService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:26:08.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:40:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.Domain\\Entities\\UserSession.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\UserSession.cs",
+              "ToolTip": "D:\\New folder\\DMS.Domain\\Entities\\UserSession.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\UserSession.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:36:26.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\UserRoleRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\UserRoleRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\UserRoleRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:14:20.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.DAL\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\New folder\\DMS.DAL\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:12:39.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\New folder\\DMS.BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\AuthService.cs",
+              "ToolTip": "D:\\New folder\\DMS.BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T18:49:40.375Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

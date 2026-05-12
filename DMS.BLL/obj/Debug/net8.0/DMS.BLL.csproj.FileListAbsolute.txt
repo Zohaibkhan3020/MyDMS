@@ -1,0 +1,17 @@
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.BLL.deps.json
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.BLL.dll
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.BLL.pdb
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.DAL.dll
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.Domain.dll
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.DAL.pdb
+D:\New folder\DMS.BLL\bin\Debug\net8.0\DMS.Domain.pdb
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.csproj.AssemblyReference.cache
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.AssemblyInfoInputs.cache
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.AssemblyInfo.cs
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.csproj.CoreCompileInputs.cache
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.csproj.Up2Date
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.dll
+D:\New folder\DMS.BLL\obj\Debug\net8.0\refint\DMS.BLL.dll
+D:\New folder\DMS.BLL\obj\Debug\net8.0\DMS.BLL.pdb
+D:\New folder\DMS.BLL\obj\Debug\net8.0\ref\DMS.BLL.dll

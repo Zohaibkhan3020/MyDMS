@@ -1,0 +1,11 @@
+D:\New folder\DMS.Domain\bin\Debug\net8.0\DMS.Domain.deps.json
+D:\New folder\DMS.Domain\bin\Debug\net8.0\DMS.Domain.dll
+D:\New folder\DMS.Domain\bin\Debug\net8.0\DMS.Domain.pdb
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.AssemblyInfoInputs.cache
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.AssemblyInfo.cs
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.csproj.CoreCompileInputs.cache
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.dll
+D:\New folder\DMS.Domain\obj\Debug\net8.0\refint\DMS.Domain.dll
+D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.pdb
+D:\New folder\DMS.Domain\obj\Debug\net8.0\ref\DMS.Domain.dll

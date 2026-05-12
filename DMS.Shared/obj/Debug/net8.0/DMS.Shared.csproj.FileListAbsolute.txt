@@ -1,0 +1,11 @@
+D:\New folder\DMS.Shared\bin\Debug\net8.0\DMS.Shared.deps.json
+D:\New folder\DMS.Shared\bin\Debug\net8.0\DMS.Shared.dll
+D:\New folder\DMS.Shared\bin\Debug\net8.0\DMS.Shared.pdb
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.AssemblyInfoInputs.cache
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.AssemblyInfo.cs
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.csproj.CoreCompileInputs.cache
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.dll
+D:\New folder\DMS.Shared\obj\Debug\net8.0\refint\DMS.Shared.dll
+D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.pdb
+D:\New folder\DMS.Shared\obj\Debug\net8.0\ref\DMS.Shared.dll
