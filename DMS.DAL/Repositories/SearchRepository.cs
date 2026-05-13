@@ -23,7 +23,7 @@ SELECT
 
     D.Title,
 
-    O.ObjectName AS ObjectType,
+    O.ObjectTypeName AS ObjectType,
 
     P.DisplayName AS PropertyName,
 

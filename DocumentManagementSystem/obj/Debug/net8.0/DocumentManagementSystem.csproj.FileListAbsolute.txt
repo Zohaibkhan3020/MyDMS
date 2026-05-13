@@ -87,6 +87,7 @@ D:\New folder\DocumentManagementSystem\obj\Debug\net8.0\ref\DocumentManagementSy
 D:\New folder\DocumentManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\appsettings.json
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.staticwebassets.endpoints.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.exe
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.deps.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.runtimeconfig.json
@@ -149,6 +150,7 @@ D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.BLL.pdb
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.DAL.pdb
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.Domain.pdb
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.csproj.AssemblyReference.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rpswa.dswa.cache.json
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfoInputs.cache
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfo.cs
@@ -156,14 +158,15 @@ D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.cspr
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.MvcApplicationPartsAssemblyInfo.cs
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.sourcelink.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.DocumentManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.DocumentManagementSystem.props
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DocumentManagementSystem.props
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DocumentManagementSystem.props
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.pack.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\scopedcss\bundle\DocumentManagementSystem.styles.css
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.development.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\Document.6480E476.Up2Date
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.dll
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\refint\DocumentManagementSystem.dll

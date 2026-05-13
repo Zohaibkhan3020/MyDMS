@@ -16,6 +16,300 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DocumentManagementSystem.Controllers.DynamicRecordController",
+    "Method": "Save",
+    "RelativePath": "api/DynamicRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.SaveDynamicRecordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.DynamicRecordController",
+    "Method": "GetRecords",
+    "RelativePath": "api/DynamicRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "objectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileController",
+    "Method": "GetByDocument",
+    "RelativePath": "api/File/by-document",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileController",
+    "Method": "Download",
+    "RelativePath": "api/File/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileController",
+    "Method": "Preview",
+    "RelativePath": "api/File/preview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileController",
+    "Method": "Upload",
+    "RelativePath": "api/File/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileVersionController",
+    "Method": "GetVersions",
+    "RelativePath": "api/FileVersion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FileVersionController",
+    "Method": "UploadVersion",
+    "RelativePath": "api/FileVersion/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Comments",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Create",
+    "RelativePath": "api/object-properties",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateObjectPropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Update",
+    "RelativePath": "api/object-properties",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.UpdateObjectPropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Delete",
+    "RelativePath": "api/object-properties",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetAll",
+    "RelativePath": "api/object-properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetById",
+    "RelativePath": "api/object-properties/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetByObjectType",
+    "RelativePath": "api/object-properties/by-object-type",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "objectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DocumentManagementSystem.Controllers.ObjectClassController",
     "Method": "Create",
     "RelativePath": "api/ObjectClass",
@@ -109,6 +403,117 @@
     "ContainingType": "DocumentManagementSystem.Controllers.ObjectClassController",
     "Method": "GetByObjectType",
     "RelativePath": "api/ObjectClass/by-object-type",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "objectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Create",
+    "RelativePath": "api/ObjectProperty",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateObjectPropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Update",
+    "RelativePath": "api/ObjectProperty",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.UpdateObjectPropertyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "Delete",
+    "RelativePath": "api/ObjectProperty",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetAll",
+    "RelativePath": "api/ObjectProperty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetById",
+    "RelativePath": "api/ObjectProperty/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
+    "Method": "GetByObjectType",
+    "RelativePath": "api/ObjectProperty/by-object-type",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -238,6 +643,27 @@
         "Name": "dto",
         "Type": "DMS.BLL.DTOs.CreateRoleDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.SearchController",
+    "Method": "Search",
+    "RelativePath": "api/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

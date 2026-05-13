@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "t8WiViN+hkiGK3e3qvAmPrij00Q7SYqHC66/6ucObZw=",
-  "Source": "DocumentManagementSystem",
-  "BasePath": "_content/DocumentManagementSystem",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"/d5XH4nOBeO19WApmfoZcHUKHfdsQg9WEyADqi4Ldt4=","Source":"DocumentManagementSystem","BasePath":"_content/DocumentManagementSystem","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

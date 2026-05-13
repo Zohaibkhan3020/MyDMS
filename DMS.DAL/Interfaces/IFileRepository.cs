@@ -16,5 +16,15 @@ namespace DMS.DAL.Interfaces
         Task LinkDocumentFileAsync(
             string connectionString,
             DocumentFile model);
+
+        Task<FileEntity>
+    GetByIdAsync(
+        string connectionString,
+        int fileId);
+
+        Task<List<FilePreview>>
+            GetByDocumentAsync(
+                string connectionString,
+                int documentId);
     }
 }

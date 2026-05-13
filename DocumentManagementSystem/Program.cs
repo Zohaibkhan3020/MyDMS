@@ -56,6 +56,24 @@ builder.Services
     .AddScoped<
         IFileService,
         FileService>();
+builder.Services
+    .AddScoped<
+        IFileVersionRepository,
+        FileVersionRepository>();
+
+builder.Services
+    .AddScoped<
+        IFileVersionService,
+        FileVersionService>();
+builder.Services
+    .AddScoped<
+        IWorkflowRepository,
+        WorkflowRepository>();
+
+builder.Services
+    .AddScoped<
+        IWorkflowService,
+        WorkflowService>();
 builder.Services.AddScoped<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
 );

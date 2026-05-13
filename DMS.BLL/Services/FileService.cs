@@ -9,17 +9,13 @@ using Microsoft.Extensions.Configuration;
 namespace DMS.BLL.Services
 {
     
-    public class FileService
-        : IFileService
+    public class FileService : IFileService
     {
-        private readonly IVaultRepository
-            _vaultRepository;
+        private readonly IVaultRepository _vaultRepository;
 
-        private readonly IFileRepository
-            _repository;
+        private readonly IFileRepository _repository;
 
-        private readonly IConfiguration
-            _configuration;
+        private readonly IConfiguration _configuration;
 
         public FileService(
             IVaultRepository vaultRepository,
@@ -28,22 +24,16 @@ namespace DMS.BLL.Services
 
             IConfiguration configuration)
         {
-            _vaultRepository =
-                vaultRepository;
+            _vaultRepository =  vaultRepository;
 
-            _repository =
-                repository;
+            _repository = repository;
 
-            _configuration =
-                configuration;
+            _configuration = configuration;
         }
 
-        private async Task<string>
-            BuildVaultConnection(
-                int vaultId)
+        private async Task<string> BuildVaultConnection( int vaultId)
         {
-            var vault =
-                await _vaultRepository
+            var vault =  await _vaultRepository
                     .GetByIdAsync(vaultId);
 
             var masterConnection =
@@ -154,6 +144,36 @@ namespace DMS.BLL.Services
                     });
 
             return fileId;
+        }
+
+        public async Task<FileEntity>
+    GetFileAsync(
+        int vaultId,
+        int fileId)
+        {
+            var connectionString =
+                await BuildVaultConnection(
+                    vaultId);
+
+            return await _repository
+                .GetByIdAsync(
+                    connectionString,
+                    fileId);
+        }
+
+        public async Task<List<FilePreview>>
+            GetByDocumentAsync(
+                int vaultId,
+                int documentId)
+        {
+            var connectionString =
+                await BuildVaultConnection(
+                    vaultId);
+
+            return await _repository
+                .GetByDocumentAsync(
+                    connectionString,
+                    documentId);
         }
     }
 }

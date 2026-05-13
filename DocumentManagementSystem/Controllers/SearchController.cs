@@ -19,16 +19,9 @@ namespace DocumentManagementSystem.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult>
-            Search(
-                int vaultId,
-                string keyword)
+        public async Task<IActionResult>Search(int vaultId,string keyword)
         {
-            return Ok(
-                await _service
-                    .SearchAsync(
-                        vaultId,
-                        keyword));
+            return Ok(await _service.SearchAsync(vaultId,keyword));
         }
     }
 }

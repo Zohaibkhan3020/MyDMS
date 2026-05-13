@@ -1,4 +1,5 @@
 ﻿using DMS.BLL.DTOs;
+using DMS.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,14 @@ namespace DMS.BLL.Interfaces
         Task<int> UploadAsync(
             UploadFileDto dto,
             int userId);
+        Task<FileEntity>
+        GetFileAsync(
+            int vaultId,
+            int fileId);
+
+        Task<List<FilePreview>>
+        GetByDocumentAsync(
+            int vaultId,
+            int documentId);
     }
 }
