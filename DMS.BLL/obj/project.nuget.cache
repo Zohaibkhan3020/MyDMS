@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWQxdL+fUAM=",
+  "dgSpecHash": "5CTSnXHqcRDr56EVJ5PnaJIHB58+4tdeAo7y2eLL/uXLOHSy/hstHl6cZLZsLuWrN23HXhIrdW3Q7ADT+LxKcw==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj",
+  "projectFilePath": "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\dapper\\2.1.72\\dapper.2.1.72.nupkg.sha512",

@@ -1302,24 +1302,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj",
+      "projectUniqueName": "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj",
       "projectName": "DMS.DAL",
-      "projectPath": "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj",
+      "projectPath": "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj",
       "packagesPath": "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\DMS.DAL\\obj\\",
+      "outputPath": "D:\\MyDMS\\DMS.DAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\ZOHAIB KHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1333,8 +1328,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj": {
-              "projectPath": "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj"
+            "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj": {
+              "projectPath": "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj"
             }
           }
         }
@@ -1348,8 +1343,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1384,7 +1378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

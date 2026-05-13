@@ -9,3 +9,15 @@ D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.dll
 D:\New folder\DMS.Domain\obj\Debug\net8.0\refint\DMS.Domain.dll
 D:\New folder\DMS.Domain\obj\Debug\net8.0\DMS.Domain.pdb
 D:\New folder\DMS.Domain\obj\Debug\net8.0\ref\DMS.Domain.dll
+D:\MyDMS\DMS.Domain\bin\Debug\net8.0\DMS.Domain.deps.json
+D:\MyDMS\DMS.Domain\bin\Debug\net8.0\DMS.Domain.dll
+D:\MyDMS\DMS.Domain\bin\Debug\net8.0\DMS.Domain.pdb
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.AssemblyInfoInputs.cache
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.AssemblyInfo.cs
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.csproj.CoreCompileInputs.cache
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.sourcelink.json
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.dll
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\refint\DMS.Domain.dll
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\DMS.Domain.pdb
+D:\MyDMS\DMS.Domain\obj\Debug\net8.0\ref\DMS.Domain.dll

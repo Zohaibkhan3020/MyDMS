@@ -13,3 +13,19 @@ D:\New folder\DMS.DAL\obj\Debug\net8.0\DMS.DAL.dll
 D:\New folder\DMS.DAL\obj\Debug\net8.0\refint\DMS.DAL.dll
 D:\New folder\DMS.DAL\obj\Debug\net8.0\DMS.DAL.pdb
 D:\New folder\DMS.DAL\obj\Debug\net8.0\ref\DMS.DAL.dll
+D:\MyDMS\DMS.DAL\bin\Debug\net8.0\DMS.DAL.deps.json
+D:\MyDMS\DMS.DAL\bin\Debug\net8.0\DMS.DAL.dll
+D:\MyDMS\DMS.DAL\bin\Debug\net8.0\DMS.DAL.pdb
+D:\MyDMS\DMS.DAL\bin\Debug\net8.0\DMS.Domain.dll
+D:\MyDMS\DMS.DAL\bin\Debug\net8.0\DMS.Domain.pdb
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.csproj.AssemblyReference.cache
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.AssemblyInfoInputs.cache
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.AssemblyInfo.cs
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.csproj.CoreCompileInputs.cache
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.sourcelink.json
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.csproj.Up2Date
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.dll
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\refint\DMS.DAL.dll
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\DMS.DAL.pdb
+D:\MyDMS\DMS.DAL\obj\Debug\net8.0\ref\DMS.DAL.dll

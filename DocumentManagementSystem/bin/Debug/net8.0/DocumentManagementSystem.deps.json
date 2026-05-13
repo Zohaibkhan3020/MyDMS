@@ -475,7 +475,7 @@
         },
         "runtime": {
           "DMS.BLL.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -489,7 +489,7 @@
         },
         "runtime": {
           "DMS.DAL.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -497,7 +497,7 @@
       "DMS.Domain/1.0.0": {
         "runtime": {
           "DMS.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

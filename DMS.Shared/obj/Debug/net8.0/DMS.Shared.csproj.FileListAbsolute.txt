@@ -9,3 +9,15 @@ D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.dll
 D:\New folder\DMS.Shared\obj\Debug\net8.0\refint\DMS.Shared.dll
 D:\New folder\DMS.Shared\obj\Debug\net8.0\DMS.Shared.pdb
 D:\New folder\DMS.Shared\obj\Debug\net8.0\ref\DMS.Shared.dll
+D:\MyDMS\DMS.Shared\bin\Debug\net8.0\DMS.Shared.deps.json
+D:\MyDMS\DMS.Shared\bin\Debug\net8.0\DMS.Shared.dll
+D:\MyDMS\DMS.Shared\bin\Debug\net8.0\DMS.Shared.pdb
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.AssemblyInfoInputs.cache
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.AssemblyInfo.cs
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.csproj.CoreCompileInputs.cache
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.sourcelink.json
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.dll
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\refint\DMS.Shared.dll
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\DMS.Shared.pdb
+D:\MyDMS\DMS.Shared\obj\Debug\net8.0\ref\DMS.Shared.dll

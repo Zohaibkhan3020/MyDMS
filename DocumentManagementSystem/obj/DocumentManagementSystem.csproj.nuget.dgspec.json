@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\DocumentManagementSystem\\DocumentManagementSystem.csproj": {}
+    "D:\\MyDMS\\DocumentManagementSystem\\DocumentManagementSystem.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj": {
+    "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj",
+        "projectUniqueName": "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj",
         "projectName": "DMS.BLL",
-        "projectPath": "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj",
+        "projectPath": "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj",
         "packagesPath": "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DMS.BLL\\obj\\",
+        "outputPath": "D:\\MyDMS\\DMS.BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ZOHAIB KHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj": {
-                "projectPath": "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj"
+              "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj": {
+                "projectPath": "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj"
               }
             }
           }
@@ -47,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -83,25 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj": {
+    "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj",
+        "projectUniqueName": "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj",
         "projectName": "DMS.DAL",
-        "projectPath": "D:\\New folder\\DMS.DAL\\DMS.DAL.csproj",
+        "projectPath": "D:\\MyDMS\\DMS.DAL\\DMS.DAL.csproj",
         "packagesPath": "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DMS.DAL\\obj\\",
+        "outputPath": "D:\\MyDMS\\DMS.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ZOHAIB KHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj": {
-                "projectPath": "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj"
+              "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj": {
+                "projectPath": "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj"
               }
             }
           }
@@ -130,8 +121,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -166,25 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj": {
+    "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj",
+        "projectUniqueName": "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj",
         "projectName": "DMS.Domain",
-        "projectPath": "D:\\New folder\\DMS.Domain\\DMS.Domain.csproj",
+        "projectPath": "D:\\MyDMS\\DMS.Domain\\DMS.Domain.csproj",
         "packagesPath": "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DMS.Domain\\obj\\",
+        "outputPath": "D:\\MyDMS\\DMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ZOHAIB KHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,8 +195,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -231,25 +216,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\New folder\\DocumentManagementSystem\\DocumentManagementSystem.csproj": {
+    "D:\\MyDMS\\DocumentManagementSystem\\DocumentManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\DocumentManagementSystem\\DocumentManagementSystem.csproj",
+        "projectUniqueName": "D:\\MyDMS\\DocumentManagementSystem\\DocumentManagementSystem.csproj",
         "projectName": "DocumentManagementSystem",
-        "projectPath": "D:\\New folder\\DocumentManagementSystem\\DocumentManagementSystem.csproj",
+        "projectPath": "D:\\MyDMS\\DocumentManagementSystem\\DocumentManagementSystem.csproj",
         "packagesPath": "C:\\Users\\ZOHAIB KHAN\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\DocumentManagementSystem\\obj\\",
+        "outputPath": "D:\\MyDMS\\DocumentManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ZOHAIB KHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -263,8 +244,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj": {
-                "projectPath": "D:\\New folder\\DMS.BLL\\DMS.BLL.csproj"
+              "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj": {
+                "projectPath": "D:\\MyDMS\\DMS.BLL\\DMS.BLL.csproj"
               }
             }
           }
@@ -278,8 +259,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -325,7 +305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

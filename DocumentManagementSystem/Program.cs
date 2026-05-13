@@ -25,21 +25,43 @@ builder.Services.AddScoped<IServerService, ServerService>();
 builder.Services.AddScoped<IVaultRepository, VaultRepository>();
 builder.Services.AddScoped<IVaultService, VaultService>();
 builder.Services.AddScoped<IObjectTypeRepository,ObjectTypeRepository>();
+builder.Services.AddScoped<IObjectClassRepository, ObjectClassRepository>();
 builder.Services.AddScoped<IObjectTypeService,ObjectTypeService>();
+builder.Services.AddScoped<IObjectPropertyRepository,ObjectPropertyRepository>();
+builder.Services.AddScoped<IObjectPropertyService,ObjectPropertyService>();
+builder.Services
+    .AddScoped<
+        IDynamicRecordRepository,
+        DynamicRecordRepository>();
+
+builder.Services
+    .AddScoped<
+        IDynamicRecordService,
+        DynamicRecordService>();
+builder.Services
+    .AddScoped<
+        ISearchRepository,
+        SearchRepository>();
+
+builder.Services
+    .AddScoped<
+        ISearchService,
+        SearchService>();
+builder.Services
+    .AddScoped<
+        IFileRepository,
+        FileRepository>();
+
+builder.Services
+    .AddScoped<
+        IFileService,
+        FileService>();
 builder.Services.AddScoped<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
 builder.Services.AddHttpContextAccessor();
-builder.Services
-    .AddScoped<
-        IObjectClassRepository,
-        ObjectClassRepository>();
-
-builder.Services
-    .AddScoped<
-        IObjectClassService,
-        ObjectClassService>();
+builder.Services.AddScoped<IObjectClassService,ObjectClassService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<SqlConnectionFactory>();
 builder.Services.AddScoped<DatabaseCreatorService>();
