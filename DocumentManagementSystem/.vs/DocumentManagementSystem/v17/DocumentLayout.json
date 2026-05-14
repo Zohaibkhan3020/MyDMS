@@ -105,7 +105,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-14T18:55:24.686Z",
               "EditorCaption": ""
@@ -168,8 +168,7 @@
               "RelativeToolTip": "..\\DMS.BLL\\Services\\EmailBackgroundService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAIwEcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:44:14.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T18:44:14.922Z"
             },
             {
               "$type": "Document",
