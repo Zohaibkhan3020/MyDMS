@@ -74,6 +74,64 @@ builder.Services
     .AddScoped<
         IWorkflowService,
         WorkflowService>();
+builder.Services
+    .AddScoped<
+        ISecurityRepository,
+        SecurityRepository>();
+
+builder.Services
+    .AddScoped<
+        ISecurityService,
+        SecurityService>();
+builder.Services
+    .AddScoped<
+        ICheckInOutRepository,
+        CheckInOutRepository>();
+
+builder.Services
+    .AddScoped<
+        ICheckInOutService,
+        CheckInOutService>();
+builder.Services
+    .AddScoped<
+        IFolderRepository,
+        FolderRepository>();
+
+builder.Services
+    .AddScoped<
+        IFolderService,
+        FolderService>();
+builder.Services
+    .AddScoped<
+        INotificationRepository,
+        NotificationRepository>();
+
+builder.Services
+    .AddScoped<
+        INotificationService,
+        NotificationService>();
+
+builder.Services
+    .AddHostedService<
+        EmailBackgroundService>();
+builder.Services
+    .AddScoped<
+        IOCRRepository,
+        OCRRepository>();
+
+builder.Services
+    .AddScoped<
+        IOCRService,
+        OCRService>();
+builder.Services
+    .AddScoped<
+        IFullTextSearchRepository,
+        FullTextSearchRepository>();
+
+builder.Services
+    .AddScoped<
+        IFullTextSearchService,
+        FullTextSearchService>();
 builder.Services.AddScoped<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
 );

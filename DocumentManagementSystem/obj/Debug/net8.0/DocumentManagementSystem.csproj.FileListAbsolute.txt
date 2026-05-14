@@ -85,9 +85,19 @@ D:\New folder\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem
 D:\New folder\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.genruntimeconfig.cache
 D:\New folder\DocumentManagementSystem\obj\Debug\net8.0\ref\DocumentManagementSystem.dll
 D:\New folder\DocumentManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.csproj.AssemblyReference.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfoInputs.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfo.cs
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.csproj.CoreCompileInputs.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.sourcelink.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\appsettings.json
-D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.staticwebassets.endpoints.json
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\x86\leptonica-1.82.0.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\x86\tesseract50.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\x64\leptonica-1.82.0.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\x64\tesseract50.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.exe
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.deps.json
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DocumentManagementSystem.runtimeconfig.json
@@ -103,6 +113,8 @@ D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.Exte
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.Internal.Logging.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -115,6 +127,14 @@ D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Token
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.Core.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.DocumentLayoutAnalysis.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.Fonts.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.Package.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.Tokenization.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.Tokens.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\UglyToad.PdfPig.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -123,6 +143,7 @@ D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.Diagnostics.EventLog.d
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\Tesseract.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
@@ -149,24 +170,15 @@ D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.Domain.dll
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.BLL.pdb
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.DAL.pdb
 D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\DMS.Domain.pdb
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.csproj.AssemblyReference.cache
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfoInputs.cache
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.AssemblyInfo.cs
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.csproj.CoreCompileInputs.cache
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.MvcApplicationPartsAssemblyInfo.cs
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.sourcelink.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjimswa.dswa.cache.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\scopedcss\bundle\DocumentManagementSystem.styles.css
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.DocumentManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.DocumentManagementSystem.props
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DocumentManagementSystem.props
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DocumentManagementSystem.props
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\staticwebassets.pack.json
+D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\scopedcss\bundle\DocumentManagementSystem.styles.css
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\Document.6480E476.Up2Date
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.dll
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\refint\DocumentManagementSystem.dll
