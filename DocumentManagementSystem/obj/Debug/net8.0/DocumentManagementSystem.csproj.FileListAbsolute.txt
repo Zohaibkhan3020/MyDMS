@@ -201,3 +201,6 @@ D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\refint\DocumentManagementSyst
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.pdb
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\DocumentManagementSystem.genruntimeconfig.cache
 D:\MyDMS\DocumentManagementSystem\obj\Debug\net8.0\ref\DocumentManagementSystem.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\OpenAI.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.ClientModel.dll
+D:\MyDMS\DocumentManagementSystem\bin\Debug\net8.0\System.Memory.Data.dll

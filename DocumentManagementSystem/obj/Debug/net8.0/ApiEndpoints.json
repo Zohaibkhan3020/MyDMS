@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "DocumentManagementSystem.Controllers.AIChatController",
+    "Method": "Ask",
+    "RelativePath": "api/ai-chat/ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.AIChatRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DocumentManagementSystem.Controllers.AIMetadataController",
     "Method": "Analyze",
     "RelativePath": "api/ai/analyze",

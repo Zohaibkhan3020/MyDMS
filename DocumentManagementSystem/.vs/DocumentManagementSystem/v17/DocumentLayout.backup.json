@@ -3,6 +3,48 @@
   "WorkspaceRootPath": "D:\\MyDMS\\DocumentManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\services\\emailbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\services\\aichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\controllers\\aichatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:controllers\\aichatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\dtos\\aichatrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\interfaces\\iaichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\mydms\\dms.dal\\repositories\\aichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\mydms\\dms.dal\\interfaces\\iaichatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\dtos\\aichatresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\mydms\\dms.domain\\entities\\aimemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\mydms\\dms.domain\\entities\\aichatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C866673-827C-4B8D-8C48-47AA0DD80E71}|..\\DMS.Domain\\DMS.Domain.csproj|d:\\mydms\\dms.domain\\entities\\aichatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\controllers\\foldercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:controllers\\foldercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,17 +55,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\controllers\\checkinoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:controllers\\checkinoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CD99443-D311-42D0-A871-006798809EB9}|..\\DMS.BLL\\DMS.BLL.csproj|d:\\mydms\\dms.bll\\services\\emailbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|d:\\mydms\\documentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4D606B45-CF66-4D60-ACB6-FE33B8C0B9AF}|DocumentManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DD3A4E3-9EF0-4A60-9D33-07556A305CFE}|..\\DMS.DAL\\DMS.DAL.csproj|d:\\mydms\\dms.dal\\interfaces\\ifulltextsearchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -64,87 +95,245 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FolderController.cs",
-              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FolderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FolderController.cs",
-              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FolderController.cs",
-              "RelativeToolTip": "Controllers\\FolderController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T19:14:28.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DigitalSignatureController.cs",
-              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\DigitalSignatureController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DigitalSignatureController.cs",
-              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\DigitalSignatureController.cs",
-              "RelativeToolTip": "Controllers\\DigitalSignatureController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wCIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T19:07:05.587Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-14T18:55:24.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CheckInOutController.cs",
-              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\CheckInOutController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CheckInOutController.cs",
-              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\CheckInOutController.cs",
-              "RelativeToolTip": "Controllers\\CheckInOutController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Title": "AIChatController.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\AIChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AIChatController.cs",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\AIChatController.cs",
+              "RelativeToolTip": "Controllers\\AIChatController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T19:02:03.324Z",
+              "WhenOpened": "2026-05-14T19:50:07.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AIChatService.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\Services\\AIChatService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\AIChatService.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.BLL\\Services\\AIChatService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Services\\AIChatService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:49:27.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AIChatRepository.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.DAL\\Repositories\\AIChatRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\AIChatRepository.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.DAL\\Repositories\\AIChatRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Repositories\\AIChatRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:48:11.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AIChatRequestDto.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\DTOs\\AIChatRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\AIChatRequestDto.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.BLL\\DTOs\\AIChatRequestDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\AIChatRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:46:52.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "EmailBackgroundService.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\Services\\EmailBackgroundService.cs",
               "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\EmailBackgroundService.cs",
               "ToolTip": "D:\\MyDMS\\DMS.BLL\\Services\\EmailBackgroundService.cs",
               "RelativeToolTip": "..\\DMS.BLL\\Services\\EmailBackgroundService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwEcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T18:44:14.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAIChatService.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\Interfaces\\IAIChatService.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\Interfaces\\IAIChatService.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.BLL\\Interfaces\\IAIChatService.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\Interfaces\\IAIChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:49:05.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T04:51:44.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAIChatRepository.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.DAL\\Interfaces\\IAIChatRepository.cs",
+              "RelativeDocumentMoniker": "..\\DMS.DAL\\Interfaces\\IAIChatRepository.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.DAL\\Interfaces\\IAIChatRepository.cs",
+              "RelativeToolTip": "..\\DMS.DAL\\Interfaces\\IAIChatRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:47:39.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "AIChatResponseDto.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\DTOs\\AIChatResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\DMS.BLL\\DTOs\\AIChatResponseDto.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.BLL\\DTOs\\AIChatResponseDto.cs",
+              "RelativeToolTip": "..\\DMS.BLL\\DTOs\\AIChatResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:47:11.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AIMemory.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\AIMemory.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\AIMemory.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\AIMemory.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\AIMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:46:31.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AIChatMessage.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\AIChatMessage.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\AIChatMessage.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\AIChatMessage.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\AIChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:46:12.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AIChatSession.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\AIChatSession.cs",
+              "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\AIChatSession.cs",
+              "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\AIChatSession.cs",
+              "RelativeToolTip": "..\\DMS.Domain\\Entities\\AIChatSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:45:05.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FolderController.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FolderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FolderController.cs",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FolderController.cs",
+              "RelativeToolTip": "Controllers\\FolderController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:14:28.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DigitalSignatureController.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\DigitalSignatureController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DigitalSignatureController.cs",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\DigitalSignatureController.cs",
+              "RelativeToolTip": "Controllers\\DigitalSignatureController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:07:05.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckInOutController.cs",
+              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\CheckInOutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckInOutController.cs",
+              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\CheckInOutController.cs",
+              "RelativeToolTip": "Controllers\\CheckInOutController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIBJwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:02:03.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "IFullTextSearchService.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\Interfaces\\IFullTextSearchService.cs",
               "RelativeDocumentMoniker": "..\\DMS.BLL\\Interfaces\\IFullTextSearchService.cs",
               "ToolTip": "D:\\MyDMS\\DMS.BLL\\Interfaces\\IFullTextSearchService.cs",
               "RelativeToolTip": "..\\DMS.BLL\\Interfaces\\IFullTextSearchService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwA4AAAAgAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:14:12.571Z"
+              "WhenOpened": "2026-05-14T06:14:12.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "FullTextSearchRepository.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.DAL\\Repositories\\FullTextSearchRepository.cs",
               "RelativeDocumentMoniker": "..\\DMS.DAL\\Repositories\\FullTextSearchRepository.cs",
               "ToolTip": "D:\\MyDMS\\DMS.DAL\\Repositories\\FullTextSearchRepository.cs",
               "RelativeToolTip": "..\\DMS.DAL\\Repositories\\FullTextSearchRepository.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAwwGgAAAAIAAAA",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:11:19.858Z"
+              "WhenOpened": "2026-05-14T06:11:19.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "IFullTextSearchRepository.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.DAL\\Interfaces\\IFullTextSearchRepository.cs",
               "RelativeDocumentMoniker": "..\\DMS.DAL\\Interfaces\\IFullTextSearchRepository.cs",
@@ -157,113 +346,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T04:51:44.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-14T18:55:24.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "FullTextSearchController.cs",
               "DocumentMoniker": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FullTextSearchController.cs",
               "RelativeDocumentMoniker": "Controllers\\FullTextSearchController.cs",
               "ToolTip": "D:\\MyDMS\\DocumentManagementSystem\\Controllers\\FullTextSearchController.cs",
               "RelativeToolTip": "Controllers\\FullTextSearchController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwAwAAAAYAAAA",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:12:31.204Z"
+              "WhenOpened": "2026-05-14T06:12:31.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "FullTextSearchService.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.BLL\\Services\\FullTextSearchService.cs",
               "RelativeDocumentMoniker": "..\\DMS.BLL\\Services\\FullTextSearchService.cs",
               "ToolTip": "D:\\MyDMS\\DMS.BLL\\Services\\FullTextSearchService.cs",
               "RelativeToolTip": "..\\DMS.BLL\\Services\\FullTextSearchService.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAqwHoAAAApAAAA",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwHoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:14:29.965Z"
+              "WhenOpened": "2026-05-14T06:14:29.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "SearchResult.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchResult.cs",
               "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\SearchResult.cs",
               "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchResult.cs",
               "RelativeToolTip": "..\\DMS.Domain\\Entities\\SearchResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:42:18.212Z"
+              "WhenOpened": "2026-05-14T06:42:18.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "SearchResponse.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchResponse.cs",
               "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\SearchResponse.cs",
               "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchResponse.cs",
               "RelativeToolTip": "..\\DMS.Domain\\Entities\\SearchResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:17:32.895Z"
+              "WhenOpened": "2026-05-14T06:17:32.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "SearchRequest.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchRequest.cs",
               "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\SearchRequest.cs",
               "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchRequest.cs",
               "RelativeToolTip": "..\\DMS.Domain\\Entities\\SearchRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:18:28.19Z"
+              "WhenOpened": "2026-05-14T06:18:28.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "SearchKeyword.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchKeyword.cs",
               "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\SearchKeyword.cs",
               "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchKeyword.cs",
               "RelativeToolTip": "..\\DMS.Domain\\Entities\\SearchKeyword.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:07:54.631Z"
+              "WhenOpened": "2026-05-14T06:07:54.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "SearchIndex.cs",
               "DocumentMoniker": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchIndex.cs",
               "RelativeDocumentMoniker": "..\\DMS.Domain\\Entities\\SearchIndex.cs",
               "ToolTip": "D:\\MyDMS\\DMS.Domain\\Entities\\SearchIndex.cs",
               "RelativeToolTip": "..\\DMS.Domain\\Entities\\SearchIndex.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:07:34.343Z"
+              "WhenOpened": "2026-05-14T06:07:34.343Z",
+              "EditorCaption": ""
             }
           ]
         }

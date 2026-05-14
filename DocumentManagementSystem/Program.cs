@@ -62,6 +62,15 @@ builder.Services.AddScoped<IJobProcessorService,JobProcessorService>();
 builder.Services.AddHostedService<QueueBackgroundService>();
 builder.Services.AddScoped<IDigitalSignatureRepository,DigitalSignatureRepository>();
 builder.Services.AddScoped<IDigitalSignatureService,DigitalSignatureService>();
+builder.Services
+    .AddScoped<
+        IAIChatRepository,
+        AIChatRepository>();
+
+builder.Services
+    .AddScoped<
+        IAIChatService,
+        AIChatService>();
 builder.Services.AddScoped<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
 );

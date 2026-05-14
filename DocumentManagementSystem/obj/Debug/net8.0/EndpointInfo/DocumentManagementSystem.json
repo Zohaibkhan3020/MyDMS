@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/ai-chat/ask": {
+      "post": {
+        "tags": [
+          "AIChat"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AIChatRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AIChatRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AIChatRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/ai/analyze": {
       "post": {
         "tags": [
@@ -2041,6 +2072,24 @@
   },
   "components": {
     "schemas": {
+      "AIChatRequestDto": {
+        "type": "object",
+        "properties": {
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sessionID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AnalyzeDocumentDto": {
         "type": "object",
         "properties": {
