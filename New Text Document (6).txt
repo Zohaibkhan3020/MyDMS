@@ -1,0 +1,18 @@
+CREATE TABLE SEARCH_INDEX
+(
+    SearchIndexID INT PRIMARY KEY IDENTITY,
+
+    DocumentID INT,
+
+    IndexedText NVARCHAR(MAX),
+
+    IndexedOn DATETIME DEFAULT GETDATE()
+)
+CREATE TABLE SEARCH_KEYWORDS
+(
+    KeywordID INT PRIMARY KEY IDENTITY,
+
+    DocumentID INT,
+
+    KeywordText NVARCHAR(300)
+)
