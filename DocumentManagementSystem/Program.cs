@@ -29,109 +29,39 @@ builder.Services.AddScoped<IObjectClassRepository, ObjectClassRepository>();
 builder.Services.AddScoped<IObjectTypeService,ObjectTypeService>();
 builder.Services.AddScoped<IObjectPropertyRepository,ObjectPropertyRepository>();
 builder.Services.AddScoped<IObjectPropertyService,ObjectPropertyService>();
-builder.Services
-    .AddScoped<
-        IDynamicRecordRepository,
-        DynamicRecordRepository>();
-
-builder.Services
-    .AddScoped<
-        IDynamicRecordService,
-        DynamicRecordService>();
-builder.Services
-    .AddScoped<
-        ISearchRepository,
-        SearchRepository>();
-
-builder.Services
-    .AddScoped<
-        ISearchService,
-        SearchService>();
-builder.Services
-    .AddScoped<
-        IFileRepository,
-        FileRepository>();
-
-builder.Services
-    .AddScoped<
-        IFileService,
-        FileService>();
-builder.Services
-    .AddScoped<
-        IFileVersionRepository,
-        FileVersionRepository>();
-
-builder.Services
-    .AddScoped<
-        IFileVersionService,
-        FileVersionService>();
-builder.Services
-    .AddScoped<
-        IWorkflowRepository,
-        WorkflowRepository>();
-
-builder.Services
-    .AddScoped<
-        IWorkflowService,
-        WorkflowService>();
-builder.Services
-    .AddScoped<
-        ISecurityRepository,
-        SecurityRepository>();
-
-builder.Services
-    .AddScoped<
-        ISecurityService,
-        SecurityService>();
-builder.Services
-    .AddScoped<
-        ICheckInOutRepository,
-        CheckInOutRepository>();
-
-builder.Services
-    .AddScoped<
-        ICheckInOutService,
-        CheckInOutService>();
-builder.Services
-    .AddScoped<
-        IFolderRepository,
-        FolderRepository>();
-
-builder.Services
-    .AddScoped<
-        IFolderService,
-        FolderService>();
-builder.Services
-    .AddScoped<
-        INotificationRepository,
-        NotificationRepository>();
-
-builder.Services
-    .AddScoped<
-        INotificationService,
-        NotificationService>();
-
-builder.Services
-    .AddHostedService<
-        EmailBackgroundService>();
-builder.Services
-    .AddScoped<
-        IOCRRepository,
-        OCRRepository>();
-
-builder.Services
-    .AddScoped<
-        IOCRService,
-        OCRService>();
-builder.Services
-    .AddScoped<
-        IFullTextSearchRepository,
-        FullTextSearchRepository>();
-
-builder.Services
-    .AddScoped<
-        IFullTextSearchService,
-        FullTextSearchService>();
+builder.Services.AddScoped<IDynamicRecordRepository,DynamicRecordRepository>();
+builder.Services.AddScoped<IDynamicRecordService,DynamicRecordService>();
+builder.Services.AddScoped<ISearchRepository,SearchRepository>();
+builder.Services.AddScoped<ISearchService,SearchService>();
+builder.Services.AddScoped<IFileRepository,FileRepository>();
+builder.Services.AddScoped<IFileService,FileService>();
+builder.Services.AddScoped<IFileVersionRepository,FileVersionRepository>();
+builder.Services.AddScoped<IFileVersionService,FileVersionService>();
+builder.Services.AddScoped<IWorkflowRepository,WorkflowRepository>();
+builder.Services.AddScoped<IWorkflowService,WorkflowService>();
+builder.Services.AddScoped<ISecurityRepository,SecurityRepository>();
+builder.Services.AddScoped<ISecurityService,SecurityService>();
+builder.Services.AddScoped<ICheckInOutRepository,CheckInOutRepository>();
+builder.Services.AddScoped<ICheckInOutService,CheckInOutService>();
+builder.Services.AddScoped<IFolderRepository,FolderRepository>();
+builder.Services.AddScoped<IFolderService,FolderService>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
+builder.Services.AddHostedService<EmailBackgroundService>();
+builder.Services.AddScoped<IOCRRepository,OCRRepository>();
+builder.Services.AddScoped<IOCRService,OCRService>();
+builder.Services.AddScoped<IFullTextSearchRepository,FullTextSearchRepository>();
+builder.Services.AddScoped<IFullTextSearchService,FullTextSearchService>();
+builder.Services.AddScoped<IAIMetadataRepository,AIMetadataRepository>();
+builder.Services.AddScoped<IAIMetadataService,AIMetadataService>();
+builder.Services.AddScoped<IEmailRepository,EmailRepository>();
+builder.Services.AddScoped<IEmailService,EmailService>();
+builder.Services.AddScoped<IBackgroundJobRepository,BackgroundJobRepository>();
+builder.Services.AddScoped<IQueueService,QueueService>();
+builder.Services.AddScoped<IJobProcessorService,JobProcessorService>();
+builder.Services.AddHostedService<QueueBackgroundService>();
+builder.Services.AddScoped<IDigitalSignatureRepository,DigitalSignatureRepository>();
+builder.Services.AddScoped<IDigitalSignatureService,DigitalSignatureService>();
 builder.Services.AddScoped<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
 );

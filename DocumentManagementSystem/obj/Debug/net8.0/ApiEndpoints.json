@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "DocumentManagementSystem.Controllers.AIMetadataController",
+    "Method": "Analyze",
+    "RelativePath": "api/ai/analyze",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.AnalyzeDocumentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DocumentManagementSystem.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -10,6 +26,38 @@
       {
         "Name": "dto",
         "Type": "DMS.BLL.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.CheckInOutController",
+    "Method": "CheckIn",
+    "RelativePath": "api/CheckInOut/checkin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CheckInDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.CheckInOutController",
+    "Method": "CheckOut",
+    "RelativePath": "api/CheckInOut/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CheckOutDto",
         "IsRequired": true
       }
     ],
@@ -48,6 +96,22 @@
         "Name": "objectTypeId",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.EmailController",
+    "Method": "Send",
+    "RelativePath": "api/email/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.SendEmailDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -194,6 +258,149 @@
         "Name": "File",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FolderController",
+    "Method": "CreateFolder",
+    "RelativePath": "api/Folder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateFolderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FolderController",
+    "Method": "MoveFolder",
+    "RelativePath": "api/Folder/move",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.MoveFolderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FolderController",
+    "Method": "GetTree",
+    "RelativePath": "api/Folder/tree/{vaultId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FullTextSearchController",
+    "Method": "BuildIndex",
+    "RelativePath": "api/FullTextSearch/build-index",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.FullTextSearchController",
+    "Method": "Search",
+    "RelativePath": "api/FullTextSearch/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.Domain.Entities.SearchRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.NotificationController",
+    "Method": "AddNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.NotificationController",
+    "Method": "GetMyNotifications",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.NotificationController",
+    "Method": "QueueEmail",
+    "RelativePath": "api/Notification/email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.EmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.NotificationController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notification/read/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -622,6 +829,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DocumentManagementSystem.Controllers.OCRController",
+    "Method": "GetOCR",
+    "RelativePath": "api/OCR/{vaultId}/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.OCRController",
+    "Method": "Extract",
+    "RelativePath": "api/OCR/extract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaultId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "filePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.QueueController",
+    "Method": "Enqueue",
+    "RelativePath": "api/queue/enqueue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.QueueJobDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DocumentManagementSystem.Controllers.RolesController",
     "Method": "GetAll",
     "RelativePath": "api/Roles",
@@ -664,6 +934,70 @@
         "Name": "keyword",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.SecurityController",
+    "Method": "AddDocumentPermission",
+    "RelativePath": "api/Security/document",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.DocumentPermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.SecurityController",
+    "Method": "AddObjectPermission",
+    "RelativePath": "api/Security/object",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.ObjectPermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.SecurityController",
+    "Method": "AddPropertyPermission",
+    "RelativePath": "api/Security/property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.PropertyPermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.SecurityController",
+    "Method": "AddWorkflowPermission",
+    "RelativePath": "api/Security/workflow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.WorkflowPermissionDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -727,6 +1061,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DocumentManagementSystem.Controllers.DigitalSignatureController",
+    "Method": "Sign",
+    "RelativePath": "api/signature/sign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.SignDocumentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.DigitalSignatureController",
+    "Method": "Watermark",
+    "RelativePath": "api/signature/watermark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.WatermarkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DocumentManagementSystem.Controllers.UserRolesController",
     "Method": "Create",
     "RelativePath": "api/UserRoles",
@@ -779,6 +1145,86 @@
       {
         "Name": "dto",
         "Type": "DMS.BLL.DTOs.CreateVaultDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.WorkflowController",
+    "Method": "CreateWorkflow",
+    "RelativePath": "api/Workflow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateWorkflowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.WorkflowController",
+    "Method": "MoveNext",
+    "RelativePath": "api/Workflow/action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.WorkflowActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.WorkflowController",
+    "Method": "StartWorkflow",
+    "RelativePath": "api/Workflow/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.StartWorkflowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.WorkflowController",
+    "Method": "CreateState",
+    "RelativePath": "api/Workflow/states",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateStateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.WorkflowController",
+    "Method": "CreateTransition",
+    "RelativePath": "api/Workflow/transitions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DMS.BLL.DTOs.CreateTransitionDto",
         "IsRequired": true
       }
     ],

@@ -8,55 +8,33 @@ namespace DocumentManagementSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FolderController
-    : ControllerBase
+    public class FolderController : ControllerBase
     {
-        private readonly IFolderService
-            _service;
+        private readonly IFolderService _service;
 
-        public FolderController(
-            IFolderService service)
+        public FolderController(IFolderService service)
         {
             _service = service;
         }
 
         [HttpPost]
-        public async Task<IActionResult>
-            CreateFolder(
-                CreateFolderDto dto)
+        public async Task<IActionResult>CreateFolder(CreateFolderDto dto)
         {
-            var userId =
-                int.Parse(
-                    User.FindFirstValue(
-                        ClaimTypes.NameIdentifier));
+            var userId =int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
 
-            return Ok(
-                await _service
-                    .CreateFolderAsync(
-                        dto,
-                        userId));
+            return Ok(await _service.CreateFolderAsync(dto,userId));
         }
 
         [HttpGet("tree/{vaultId}")]
-        public async Task<IActionResult>
-            GetTree(
-                int vaultId)
+        public async Task<IActionResult>GetTree(int vaultId)
         {
-            return Ok(
-                await _service
-                    .GetTreeAsync(
-                        vaultId));
+            return Ok(await _service.GetTreeAsync(vaultId));
         }
 
         [HttpPost("move")]
-        public async Task<IActionResult>
-            MoveFolder(
-                MoveFolderDto dto)
+        public async Task<IActionResult>MoveFolder(MoveFolderDto dto)
         {
-            await _service
-                .MoveFolderAsync(
-                    dto);
-
+            await _service.MoveFolderAsync(dto);
             return Ok();
         }
     }

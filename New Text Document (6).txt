@@ -1,18 +1,42 @@
-CREATE TABLE SEARCH_INDEX
-(
-    SearchIndexID INT PRIMARY KEY IDENTITY,
+| Remaining                    | Purpose                      |
+| ---------------------------- | ---------------------------- |
+| Recycle Bin Engine           | soft delete + restore        |
+| Retention Policy Engine      | auto archive/delete          |
+| Record Management Engine     | legal records                |
+| Audit Analytics Engine       | reporting                    |
+| Digital Signature Engine     | signed documents             |
+| Watermark Engine             | preview protection           |
+| Sharing Engine               | secure external links        |
+| Comment/Annotation Engine    | notes on documents           |
+| Task Assignment Engine       | assign work                  |
+| Calendar/Reminder Engine     | due dates                    |
+| Template Engine              | document templates           |
+| Email Integration Engine     | email import/export          |
+| Bulk Import Engine           | mass upload                  |
+| Archive Engine               | cold storage                 |
+| Backup/Restore Engine        | disaster recovery            |
+| API Key + Integration Engine | external integrations        |
+| AI Chatbot Engine            | ask AI about documents       |
+| Reporting Dashboard Engine   | analytics                    |
+| ElasticSearch/Solr Engine    | ultra-fast enterprise search |
+| Distributed Storage Engine   | multi-server storage         |
+| Multi-Tenant Engine          | SaaS architecture            |
+| Queue/Job Engine             | background processing        |
+| Live Collaboration Engine    | simultaneous editing         |
+| Workflow Designer UI         | graphical workflow builder   |
+| Vault Designer UI            | M-Files style admin UI       |
 
-    DocumentID INT,
+Agar priority dekhen to ab:
 
-    IndexedText NVARCHAR(MAX),
+🔥 High Priority
+Recycle Bin
+Retention Policy
+Digital Signature
+Watermark Security
+Email Integration
+Task Engine
+Reporting Dashboard
+AI Chatbot
+Background Job Engine
+Workflow Designer UI
 
-    IndexedOn DATETIME DEFAULT GETDATE()
-)
-CREATE TABLE SEARCH_KEYWORDS
-(
-    KeywordID INT PRIMARY KEY IDENTITY,
-
-    DocumentID INT,
-
-    KeywordText NVARCHAR(300)
-)
