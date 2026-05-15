@@ -10,28 +10,16 @@ namespace DMS.BLL.Interfaces
 {
     public interface IObjectPropertyService
     {
-        Task<int> CreateAsync(
-            CreateObjectPropertyDto dto);
+        Task<int> CreateAsync(CreateObjectPropertyDto dto);
 
-        Task UpdateAsync(
-            UpdateObjectPropertyDto dto);
+        Task UpdateAsync(UpdateObjectPropertyDto dto);
 
-        Task DeleteAsync(
-            int vaultId,
-            int propertyId);
+        Task DeleteAsync(int vaultId,int propertyId);
 
-        Task<List<ObjectProperty>>
-            GetAllAsync(
-                int vaultId);
+        Task<List<ObjectProperty>> GetAllAsync(int vaultId);
 
-        Task<List<ObjectProperty>>
-            GetByObjectTypeAsync(
-                int vaultId,
-                int objectTypeId);
+        Task<List<ObjectProperty>> GetByObjectTypeAsync(int vaultId,int objectTypeId,int ClassID);
 
-        Task<ObjectProperty>
-            GetByIdAsync(
-                int vaultId,
-                int propertyId);
+        Task<ObjectProperty> GetByIdAsync(int vaultId,int propertyId);
     }
 }

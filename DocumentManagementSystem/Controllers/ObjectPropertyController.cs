@@ -5,14 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DocumentManagementSystem.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    [Route("api/object-properties")]
-    public class ObjectPropertyController
-    : ControllerBase
+    [Route("api/[controller]")]
+    public class ObjectPropertyController : ControllerBase
     {
-        private readonly IObjectPropertyService
-            _service;
+        private readonly IObjectPropertyService _service;
 
         public ObjectPropertyController(IObjectPropertyService service)
         {
@@ -47,9 +44,9 @@ namespace DocumentManagementSystem.Controllers
         }
 
         [HttpGet("by-object-type")]
-        public async Task<IActionResult>GetByObjectType(int vaultId,int objectTypeId)
+        public async Task<IActionResult>GetByObjectType(int vaultId,int objectTypeId,int ClassID)
         {
-            return Ok(await _service.GetByObjectTypeAsync(vaultId,objectTypeId));
+            return Ok(await _service.GetByObjectTypeAsync(vaultId,objectTypeId, ClassID));
         }
 
         [HttpGet("{id}")]

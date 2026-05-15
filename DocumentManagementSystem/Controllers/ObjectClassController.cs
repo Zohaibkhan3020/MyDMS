@@ -21,82 +21,45 @@ namespace DocumentManagementSystem.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult>
-            Create(
-                CreateObjectClassDto dto)
+        public async Task<IActionResult>Create(CreateObjectClassDto dto)
         {
-            var userId =
-                int.Parse(
-                    User.FindFirstValue(
-                        ClaimTypes.NameIdentifier));
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
 
-            return Ok(
-                await _service
-                    .CreateAsync(
-                        dto,
-                        userId));
+            return Ok(await _service.CreateAsync(dto,userId));
         }
 
         [HttpPut]
-        public async Task<IActionResult>
-            Update(
-                UpdateObjectClassDto dto)
+        public async Task<IActionResult>Update(UpdateObjectClassDto dto)
         {
-            await _service
-                .UpdateAsync(dto);
+            await _service.UpdateAsync(dto);
 
             return Ok();
         }
 
         [HttpDelete]
-        public async Task<IActionResult>
-            Delete(
-                int vaultId,
-                int classId)
+        public async Task<IActionResult> Delete(int vaultId,int classId)
         {
-            await _service
-                .DeleteAsync(
-                    vaultId,
-                    classId);
+            await _service.DeleteAsync(vaultId,classId);
 
             return Ok();
         }
 
         [HttpGet]
-        public async Task<IActionResult>
-            GetAll(
-                int vaultId)
+        public async Task<IActionResult> GetAll(int vaultId)
         {
-            return Ok(
-                await _service
-                    .GetAllAsync(
-                        vaultId));
+            return Ok(await _service.GetAllAsync(vaultId));
         }
 
         [HttpGet("by-object-type")]
-        public async Task<IActionResult>
-            GetByObjectType(
-                int vaultId,
-                int objectTypeId)
+        public async Task<IActionResult>GetByObjectType(int vaultId, int objectTypeId)
         {
-            return Ok(
-                await _service
-                    .GetByObjectTypeAsync(
-                        vaultId,
-                        objectTypeId));
+            return Ok(await _service.GetByObjectTypeAsync(vaultId,objectTypeId));
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult>
-            GetById(
-                int vaultId,
-                int id)
+        public async Task<IActionResult> GetById(int vaultId,int id)
         {
-            return Ok(
-                await _service
-                    .GetByIdAsync(
-                        vaultId,
-                        id));
+            return Ok(await _service.GetByIdAsync(vaultId,id));
         }
     }
 }

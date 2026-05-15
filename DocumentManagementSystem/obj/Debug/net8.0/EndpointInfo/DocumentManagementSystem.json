@@ -1055,114 +1055,6 @@
         }
       }
     },
-    "/api/object-properties": {
-      "post": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateObjectPropertyDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateObjectPropertyDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateObjectPropertyDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateObjectPropertyDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateObjectPropertyDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateObjectPropertyDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "parameters": [
-          {
-            "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "propertyId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "parameters": [
-          {
-            "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/ObjectProperty/by-object-type": {
       "get": {
         "tags": [
@@ -1184,31 +1076,9 @@
               "type": "integer",
               "format": "int32"
             }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/object-properties/by-object-type": {
-      "get": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "parameters": [
-          {
-            "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
           },
           {
-            "name": "objectTypeId",
+            "name": "ClassID",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -1224,37 +1094,6 @@
       }
     },
     "/api/ObjectProperty/{id}": {
-      "get": {
-        "tags": [
-          "ObjectProperty"
-        ],
-        "parameters": [
-          {
-            "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/object-properties/{id}": {
       "get": {
         "tags": [
           "ObjectProperty"
@@ -1371,29 +1210,9 @@
             "description": "OK"
           }
         }
-      },
-      "get": {
-        "tags": [
-          "ObjectType"
-        ],
-        "parameters": [
-          {
-            "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
-    "/api/ObjectType/{id}": {
+    "/api/ObjectType/{vaultId}": {
       "get": {
         "tags": [
           "ObjectType"
@@ -1401,14 +1220,6 @@
         "parameters": [
           {
             "name": "vaultId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
@@ -1876,6 +1687,29 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vaults/{ServerID}": {
+      "get": {
+        "tags": [
+          "Vaults"
+        ],
+        "parameters": [
+          {
+            "name": "ServerID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

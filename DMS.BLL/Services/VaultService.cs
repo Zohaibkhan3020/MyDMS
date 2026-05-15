@@ -69,5 +69,10 @@ namespace DMS.BLL.Services
 
             return await _repository.InsertAsync(vault);
         }
+
+        public async Task<IEnumerable<Vault>> GetAllAsync(int ServerID)
+        {
+            return await _repository.GetAllAsync(ServerID);
+        }
     }
 }

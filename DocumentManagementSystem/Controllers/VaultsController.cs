@@ -16,6 +16,14 @@ namespace DocumentManagementSystem.Controllers
             _service = service;
         }
 
+        [HttpGet("{ServerID}")]
+        public async Task<IActionResult> GetAll(int ServerID)
+        {
+            var result = await _service.GetAllAsync(ServerID);
+
+            return Ok(result);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(CreateVaultDto dto)
         {

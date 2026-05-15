@@ -9,24 +9,15 @@ using Microsoft.Extensions.Configuration;
 namespace DMS.BLL.Services
 {
    
-    public class ObjectPropertyService
-        : IObjectPropertyService
+    public class ObjectPropertyService : IObjectPropertyService
     {
-        private readonly IVaultRepository
-            _vaultRepository;
+        private readonly IVaultRepository  _vaultRepository;
 
-        private readonly IObjectPropertyRepository
-            _repository;
+        private readonly IObjectPropertyRepository _repository;
 
-        private readonly IConfiguration
-            _configuration;
+        private readonly IConfiguration _configuration;
 
-        public ObjectPropertyService(
-            IVaultRepository vaultRepository,
-
-            IObjectPropertyRepository repository,
-
-            IConfiguration configuration)
+        public ObjectPropertyService(IVaultRepository vaultRepository, IObjectPropertyRepository repository,IConfiguration configuration)
         {
             _vaultRepository =
                 vaultRepository;
@@ -38,80 +29,51 @@ namespace DMS.BLL.Services
                 configuration;
         }
 
-        private async Task<string>
-            BuildVaultConnection(
-                int vaultId)
+        private async Task<string>BuildVaultConnection(int vaultId)
         {
-            var vault =
-                await _vaultRepository
-                    .GetByIdAsync(vaultId);
+            var vault = await _vaultRepository.GetByIdAsync(vaultId);
 
-            var masterConnection =
-                _configuration
-                    .GetConnectionString(
-                        "MasterConnection");
+            var masterConnection = _configuration.GetConnectionString("MasterConnection");
 
-            var builder =
-                new SqlConnectionStringBuilder(
-                    masterConnection);
+            var builder = new SqlConnectionStringBuilder(masterConnection);
 
-            builder.InitialCatalog =
-                vault.DatabaseName;
+            builder.InitialCatalog =  vault.DatabaseName;
 
             return builder.ConnectionString;
         }
 
-        public async Task<int>
-            CreateAsync(
-                CreateObjectPropertyDto dto)
+        public async Task<int> CreateAsync(CreateObjectPropertyDto dto)
         {
-            var connectionString =
-                await BuildVaultConnection(
-                    dto.VaultID);
+            var connectionString = await BuildVaultConnection(dto.VaultID);
 
-            var entity =
-                new ObjectProperty
+            var entity = new ObjectProperty
                 {
-                    ObjectTypeID =
-                        dto.ObjectTypeID,
+                    ObjectTypeID =   dto.ObjectTypeID,
 
-                    PropertyName =
-                        dto.PropertyName,
+                    PropertyName =  dto.PropertyName,
 
-                    DisplayName =
-                        dto.DisplayName,
+                    DisplayName =  dto.DisplayName,
 
-                    DataType =
-                        dto.DataType,
+                    DataType = dto.DataType,
 
-                    ControlType =
-                        dto.ControlType,
+                    ControlType = dto.ControlType,
 
-                    IsRequired =
-                        dto.IsRequired,
+                    IsRequired = dto.IsRequired,
 
-                    IsUnique =
-                        dto.IsUnique,
+                    IsUnique = dto.IsUnique,
 
-                    IsSearchable =
-                        dto.IsSearchable,
+                    IsSearchable = dto.IsSearchable,
 
-                    DefaultValue =
-                        dto.DefaultValue,
+                    DefaultValue = dto.DefaultValue,
 
-                    LookupObjectTypeID =
-                        dto.LookupObjectTypeID,
+                    LookupObjectTypeID = dto.LookupObjectTypeID,
 
-                    SortOrder =
-                        dto.SortOrder,
+                    SortOrder = dto.SortOrder,
 
                     IsActive = true
                 };
 
-            return await _repository
-                .InsertAsync(
-                    connectionString,
-                    entity);
+            return await _repository.InsertAsync(connectionString,entity);
         }
 
         public async Task UpdateAsync(
@@ -184,32 +146,18 @@ namespace DMS.BLL.Services
                     propertyId);
         }
 
-        public async Task<List<ObjectProperty>>
-            GetAllAsync(
-                int vaultId)
+        public async Task<List<ObjectProperty>>GetAllAsync(int vaultId)
         {
-            var connectionString =
-                await BuildVaultConnection(
-                    vaultId);
+            var connectionString = await BuildVaultConnection(vaultId);
 
-            return await _repository
-                .GetAllAsync(
-                    connectionString);
+            return await _repository.GetAllAsync(connectionString);
         }
 
-        public async Task<List<ObjectProperty>>
-            GetByObjectTypeAsync(
-                int vaultId,
-                int objectTypeId)
+        public async Task<List<ObjectProperty>> GetByObjectTypeAsync(int vaultId,int objectTypeId, int ClassID)
         {
-            var connectionString =
-                await BuildVaultConnection(
-                    vaultId);
+            var connectionString =  await BuildVaultConnection(vaultId);
 
-            return await _repository
-                .GetByObjectTypeAsync(
-                    connectionString,
-                    objectTypeId);
+            return await _repository.GetByObjectTypeAsync(connectionString,objectTypeId, ClassID);
         }
 
         public async Task<ObjectProperty>

@@ -422,117 +422,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "Create",
-    "RelativePath": "api/object-properties",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "DMS.BLL.DTOs.CreateObjectPropertyDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "Update",
-    "RelativePath": "api/object-properties",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "DMS.BLL.DTOs.UpdateObjectPropertyDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "Delete",
-    "RelativePath": "api/object-properties",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "propertyId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "GetAll",
-    "RelativePath": "api/object-properties",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "GetById",
-    "RelativePath": "api/object-properties/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectPropertyController",
-    "Method": "GetByObjectType",
-    "RelativePath": "api/object-properties/by-object-type",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "objectTypeId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "DocumentManagementSystem.Controllers.ObjectClassController",
     "Method": "Create",
     "RelativePath": "api/ObjectClass",
@@ -750,6 +639,11 @@
         "Name": "objectTypeId",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "ClassID",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -810,34 +704,13 @@
   {
     "ContainingType": "DocumentManagementSystem.Controllers.ObjectTypeController",
     "Method": "GetAll",
-    "RelativePath": "api/ObjectType",
+    "RelativePath": "api/ObjectType/{vaultId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DocumentManagementSystem.Controllers.ObjectTypeController",
-    "Method": "GetById",
-    "RelativePath": "api/ObjectType/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vaultId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -1161,6 +1034,22 @@
       {
         "Name": "dto",
         "Type": "DMS.BLL.DTOs.CreateVaultDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocumentManagementSystem.Controllers.VaultsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Vaults/{ServerID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ServerID",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

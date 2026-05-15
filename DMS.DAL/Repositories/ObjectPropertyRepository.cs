@@ -114,9 +114,7 @@ WHERE PropertyID = @PropertyID
                 model);
         }
 
-        public async Task DeleteAsync(
-            string connectionString,
-            int propertyId)
+        public async Task DeleteAsync(string connectionString,int propertyId)
         {
             var sql = @"
 
@@ -134,9 +132,7 @@ WHERE PropertyID = @propertyId
                 new { propertyId });
         }
 
-        public async Task<List<ObjectProperty>>
-            GetAllAsync(
-                string connectionString)
+        public async Task<List<ObjectProperty>>GetAllAsync(string connectionString)
         {
             var sql = @"
 
@@ -158,55 +154,33 @@ ORDER BY SortOrder
             return data.ToList();
         }
 
-        public async Task<List<ObjectProperty>>
-            GetByObjectTypeAsync(
-                string connectionString,
-                int objectTypeId)
+        public async Task<List<ObjectProperty>> GetByObjectTypeAsync(string connectionString,int objectTypeId, int ClassID)
         {
             var sql = @"
+                    SELECT *
+                    FROM OBJECT_PROPERTIES
+                    WHERE ObjectTypeID = @objectTypeId AND ClassID = @ClassID
 
-SELECT *
-FROM OBJECT_PROPERTIES
-WHERE ObjectTypeID = @objectTypeId
+                    ORDER BY SortOrder
 
-ORDER BY SortOrder
+                    ";
 
-";
+            using var connection = new SqlConnection(connectionString);
 
-            using var connection =
-                new SqlConnection(
-                    connectionString);
-
-            var data =
-                await connection
-                    .QueryAsync<ObjectProperty>(
-                        sql,
-                        new { objectTypeId });
+            var data = await connection.QueryAsync<ObjectProperty>(sql,new { objectTypeId });
 
             return data.ToList();
         }
 
-        public async Task<ObjectProperty>
-            GetByIdAsync(
-                string connectionString,
-                int propertyId)
+        public async Task<ObjectProperty>GetByIdAsync(string connectionString, int propertyId)
         {
             var sql = @"
+                    SELECT * FROM OBJECT_PROPERTIES
+                    WHERE PropertyID = @propertyId";
 
-SELECT *
-FROM OBJECT_PROPERTIES
-WHERE PropertyID = @propertyId
+            using var connection = new SqlConnection(connectionString);
 
-";
-
-            using var connection =
-                new SqlConnection(
-                    connectionString);
-
-            return await connection
-                .QueryFirstOrDefaultAsync<ObjectProperty>(
-                    sql,
-                    new { propertyId });
+            return await connection.QueryFirstOrDefaultAsync<ObjectProperty>(sql, new { propertyId });
         }
     }
 }

@@ -21,19 +21,11 @@ namespace DocumentManagementSystem.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult>
-            Create(
-                CreateObjectTypeDto dto)
+        public async Task<IActionResult>Create(CreateObjectTypeDto dto)
         {
-            var userId =
-                int.Parse(
-                    User.FindFirstValue(
-                        ClaimTypes.NameIdentifier));
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
 
-            return Ok(
-                await _service.CreateAsync(
-                    dto,
-                    userId));
+            return Ok(await _service.CreateAsync(dto,userId));
         }
 
         [HttpPut]
@@ -59,28 +51,16 @@ namespace DocumentManagementSystem.Controllers
             return Ok();
         }
 
-        [HttpGet]
-        public async Task<IActionResult>
-            GetAll(
-                int vaultId)
+        [HttpGet("{vaultId}")]
+        public async Task<IActionResult>GetAll(int vaultId)
         {
-            return Ok(
-                await _service
-                    .GetAllAsync(
-                        vaultId));
+            return Ok(await _service.GetAllAsync(vaultId));
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult>
-            GetById(
-                int vaultId,
-                int id)
-        {
-            return Ok(
-                await _service
-                    .GetByIdAsync(
-                        vaultId,
-                        id));
-        }
+        //[HttpGet("{id}")]
+        //public async Task<IActionResult>GetById(int vaultId,int id)
+        //{
+        //    return Ok(await _service.GetByIdAsync(vaultId,id));
+        //}
     }
 }

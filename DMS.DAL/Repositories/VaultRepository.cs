@@ -43,25 +43,22 @@ SELECT CAST(SCOPE_IDENTITY() AS INT)
             return await connection.ExecuteScalarAsync<int>(sql, model);
         }
 
-        public async Task<Vault>
-    GetByIdAsync(int vaultId)
+        public async Task<IEnumerable<Vault>> GetAllAsync(int ServerID)
         {
-            var sql = @"
+            var sql = @"SELECT * FROM Vaults WHERE ServerID = @ServerID ORDER BY VaultName";
 
-SELECT *
-FROM VAULTS
-WHERE VaultID = @vaultId
+            using var connection = _connectionFactory.CreateConnection();
 
-";
+            return await connection.QueryAsync<Vault>(sql, new { ServerID });
+        }
 
-            using var connection =
-                _connectionFactory
-                    .CreateConnection();
+        public async Task<Vault>GetByIdAsync(int vaultId)
+        {
+            var sql = @"SELECT * FROM VAULTS WHERE VaultID = @vaultId";
 
-            return await connection
-                .QueryFirstOrDefaultAsync<Vault>(
-                    sql,
-                    new { vaultId });
+            using var connection = _connectionFactory.CreateConnection();
+
+            return await connection.QueryFirstOrDefaultAsync<Vault>(sql,new { vaultId });
         }
     }
 }
